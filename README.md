@@ -21,21 +21,11 @@ An interactive web application built using the MERN Stack (MongoDB, Express, Rea
 - **Authentication**: JWT (JSON Web Tokens)
 - **Version Control**: Git & GitHub
 
-## 🧑‍💻 How to Contribute
 
-1. Fork the repository
-2. Clone your forked repo:  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/elearning-dashboard.git
-3. Create a new branch for your feature or fix
-4. Make your changes and commit
-5. Push to your forked repository
-6. Open a Pull Request (PR) to the main branch of the original repository
-7. 📌 Note: Team members should add their names to the list below when contributing.
 
 👥 Contributors
 Gabriella Wekesa 
-[Add your name below as you fork and contribute]
+
 
 
 
