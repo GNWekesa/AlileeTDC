@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api', // Vite proxy
+  baseURL: '/api', // Vite proxy// this is proxied to http://localhost:5000
 });
-
+// the above allows all your components to make backend requests below
 // Posts
 export const getPosts = () => API.get('/posts');
 export const getPost = (id) => API.get(`/posts/${id}`);
