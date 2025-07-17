@@ -12,6 +12,11 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: { origin: '*' }
 });
+//below is to just have some text on the home page so that I know the server is running
+app.get('/', (req, res) => {
+  res.send('✅ AlileeTDC Backend is running');
+});
+
 
 // ✅ Inject io into every request
 app.use((req, res, next) => {
